@@ -39,7 +39,7 @@ if ( ! class_exists( 'WooCouponUserManagement' ) ) :
 
 		public function woocommerce_loaded()
 		{
-			include_once( 'includes/coupon-meta-fields.php' );
+			include_once( 'coupon-meta-fields.php' );
 		}
 
 		public function filter_coupons( $tf, $coupon )
